@@ -1,4 +1,25 @@
 package com.razzyspring.udemyspringcourse.game;
 
-public class PacmanGame {
+public class PacmanGame implements GamingConsole
+{
+
+    @Override
+    public void up() {
+        System.out.println("up");
+    }
+
+    @Override
+    public void down() {
+        System.out.println("down");
+    }
+
+    @Override
+    public void right() {
+        System.out.println("left");
+    }
+
+    @Override
+    public void left() {
+        System.out.println("right");
+    }
 }
